@@ -1,0 +1,14 @@
+.PeopleList {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PeopleList__EmptyContainer {
+    flex-grow: 1;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
